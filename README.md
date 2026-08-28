@@ -1,1 +1,1 @@
-![alt text](image.png)
+![alt text](F:\portfolio-projects\RAG\Screenshot 2026-08-28 160649.png)
