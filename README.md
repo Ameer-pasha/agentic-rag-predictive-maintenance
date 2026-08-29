@@ -1,1 +1,1 @@
-![alt text](F:\portfolio-projects\RAG\manufacturing-rag-agent\Screenshot 2026-08-28 160649.png)
+![Screenshot](./Screenshot%202026-08-28%20160649.png)
