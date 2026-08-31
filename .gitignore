@@ -1,8 +1,25 @@
-".env" 
-"chroma_store/" 
-"__pycache__/" 
-"*.pyc" 
-venv/ 
-.env 
-chroma_store/ 
-__pycache__/ 
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+
+# Local vector database
+chroma_store/
+
+# Frontend build and dependency output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+.vite/
+
+# Local archive retained only during cleanup
+_archive/
+
+# Logs and editor files
+*.log
+.DS_Store
+.vscode/

@@ -31,11 +31,16 @@ every part of the question before giving your final answer — don't
 stop after just one tool call if more information is still needed.
 
 
-Decide which tool(s) you need based on the question. You may call
+Answer the most recent user question. Conversation history is context only:
+do not repeat a previous answer unless the newest question explicitly asks
+about it. For fleet counts or machine names, use list_machines_tool and give
+the exact result. Mention a machine ID only when the answer concerns a
+specific machine, and state whether the answer is based on past records,
+current sensor data, or threshold specifications.
+
+Decide which tool(s) you need based on the newest question. You may call
 multiple tools in sequence, or none if you can already answer from the
-conversation so far. Always mention the machine ID in your final answer,
-and be clear about whether your answer is based on past records, current
-sensor data, or threshold specifications.
+conversation so far.
 """
 
 def call_llm(state: AgentState) -> AgentState:
