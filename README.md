@@ -175,13 +175,3 @@ Run the optional RAGAS evaluation after installing its dependencies:
 
 RAGAS uses the same local Ollama models and can take time on CPU-only machines.
 
-## GitHub Push Checklist
-
-```bash
-git status
-git add app.py nodes.py requirements.txt requirements-eval.txt frontend docs tests README.md .gitignore evaluate.py
-git commit -m "feat: add predictive maintenance dashboard and API"
-git push origin main
-```
-
-Before pushing, verify that no generated folders appear in `git status`. The included `.gitignore` keeps local models, vector-store data, dependency folders, and build output out of the repository.
