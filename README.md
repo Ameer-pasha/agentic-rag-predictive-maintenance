@@ -4,6 +4,7 @@ ForgeIQ is a local-first Agentic RAG application for investigating industrial ma
 
 The included web interface provides an almond-and-orange operations console with chat, per-turn tool traces, fleet status, machine history, and anomaly escalation.
 
+
 ## Interface Preview
 
 ![ForgeIQ web interface](<docs/images/Screenshot 2026-08-31 220612.png>)
