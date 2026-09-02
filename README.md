@@ -1,5 +1,6 @@
 # ForgeIQ: Agentic RAG for Predictive Maintenance
 
+
 ForgeIQ is a local-first Agentic RAG application for investigating industrial machine issues. It combines semantic maintenance-log retrieval, deterministic sensor checks, failure-threshold lookup, and LangGraph conversation memory in one workflow.
 
 The included web interface provides an almond-and-orange operations console with chat, per-turn tool traces, fleet status, machine history, and anomaly escalation.
